@@ -9,7 +9,6 @@ interface HelloWorldInterface {
 /// @title A simple implementation of Hello World
 contract HelloWorld is HelloWorldInterface {
     string private text;
-    
 
     constructor() {
         text = "Hello World";
